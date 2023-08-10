@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Moments</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <div class="absolute top-0 right-0 h-16 w-40 m-4 pl-10 text-white ...">
+    <div class="flex">
+      <span id="icon"><canvas id="icon1" width="35" height="35"></canvas></span>
+      <span id="Second-Temperature" class="cursor-pointer text-2xl ml-[0.5rem]">Temp</span>
+    </div>
+    <div id="city" class="text-[1.5rem]">City</div>
+  </div>
+
+  <div id="Main" class="flex flex-col flex-wrap content-center  align-center mt-40 justify-center h-[40rem]">
+    <div id="Time" class="text-9xl ml-[5rem] text-white">
+      Time
+    </div>
+
+    <div id="GreetingParent" class="text-white text-5xl">
+      <div id="Greeting">
+      </div>
+    </div>
+
+    <div class="text-white mt-16 ml-[1rem] text-3xl">
+      What Is Your Main Focus Today?
+      <div id="MainFocus" contenteditable="true" class="outline-none text-center mr-[1.5rem]"></div>
+    </div>
+
+
+    <p id="quote" class="text-white text-center mt-72">
+      Quote
+    </p>
+  </div>
+
+  <script src="skycons.js"></script>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge-v2.js" theme="dark" position="bottom-right"></script>
+</body>
+
+</html>
